@@ -1,0 +1,9 @@
+,Forest,Shrubland,Wetland,Natural Grassland,Pastureland,Cropland,Water,Total
+Forest,18052,19,87,77,151,0,9,18395
+Shrubland,61,31,63,101,17,0,0,273
+Wetland,34,5,138,29,1,0,22,229
+Natural Grassland,41,9,265,427,5,0,11,758
+Pastureland,398,23,36,71,2967,44,1,3540
+Cropland,16,1,6,11,66,149,0,249
+Water,17,1,8,4,2,0,344,376
+Total,18619,89,603,720,3209,193,387,23820

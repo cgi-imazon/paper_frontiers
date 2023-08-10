@@ -1,0 +1,8 @@
+,Forest,Shrubland,Wetland,Natural Grassland,Pastureland,Cropland,Water
+Forest,98.55,0.14,0.42,0.37,0.43,0.0,0.09
+Shrubland,26.67,9.33,25.67,33.33,4.33,0.0,0.67
+Wetland,15.65,0.0,54.35,14.35,0.43,0.0,15.22
+Natural Grassland,6.15,0.9,34.83,54.93,0.77,0.0,2.43
+Pastureland,25.35,0.94,1.6,3.1,68.67,0.28,0.05
+Cropland,29.03,3.23,0.0,12.9,48.39,6.45,0.0
+Water,5.41,0.0,2.7,1.35,0.0,0.0,90.54
