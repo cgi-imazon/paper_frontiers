@@ -28,7 +28,7 @@ var targetClasses = {
   '12':'Natural Grassland',
   '15':'Pastureland',
   '18':'Cropland',
-  '27':'Bareland and Impervious',
+  '22':'Bareland and Impervious',
   '29':'Rock Outcrop',
   '33':'Water'
 }
@@ -36,7 +36,7 @@ var targetClasses = {
 // lapig class samples
 var normalizeClasses = {
     "AFLORAMENTO ROCHOSO": 29,
-    "APICUM": 25,
+    "APICUM": 22,
     "CAMPO ALAGADO E ÁREA PANTANOSA": 11,
     "CANA": 18,
     "FLORESTA INUNDÁVEL": 6,
@@ -44,14 +44,14 @@ var normalizeClasses = {
     "FORMAÇÃO CAMPESTRE": 12,
     "FORMAÇÃO FLORESTAL": 3,
     "FORMAÇÃO SAVÂNICA": 4,
-    "INFRAESTRUTURA URBANA": 25,
+    "INFRAESTRUTURA URBANA": 22,
     "LAVOURA PERENE": 18,
     "LAVOURA TEMPORÁRIA": 18,
     "MANGUE": 3,
-    "MINERAÇÃO": 25,
+    "MINERAÇÃO": 22,
     "NÃO OBSERVADO": 0,
     "OUTRA FORMAÇÃO NÃO FLORESTAL": 12,
-    "OUTRA ÁREA NÃO VEGETADA": 25,
+    "OUTRA ÁREA NÃO VEGETADA": 22,
     "PASTAGEM": 15,
     "RIO, LAGO E OCEANO": 33,
     "VEGETAÇÃO URBANA": 3

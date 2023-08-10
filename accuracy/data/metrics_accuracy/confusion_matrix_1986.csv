@@ -1,0 +1,12 @@
+,Forest,Shrubland,Flooded Forest,Wetland,Natural Grassland,Pastureland,Cropland,Bareland and Impervious,Rock Outcrop,Water,Total
+Forest,18959,34,705,35,74,83,0,0,5,1,19594
+Shrubland,73,31,16,72,104,13,0,0,13,3,95
+Flooded Forest,135,2,167,46,7,0,0,0,0,17,959
+Wetland,9,0,28,132,26,0,0,0,0,32,567
+Natural Grassland,22,8,19,237,436,10,0,0,5,15,741
+Pastureland,359,19,19,23,63,717,5,0,2,0,841
+Cropland,5,0,0,1,2,8,2,0,0,0,7
+Bareland and Impervious,4,1,0,5,14,8,0,0,0,2,0
+Rock Outcrop,15,0,0,1,11,1,0,0,6,1,31
+Water,13,0,5,15,4,1,0,0,0,303,374
+Total,39490,420,1333,794,1493,2048,25,34,66,715,23209
