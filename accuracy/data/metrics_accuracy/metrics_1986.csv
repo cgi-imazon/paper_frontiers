@@ -1,0 +1,11 @@
+,Accuracy User,Accuracy Producer,Precision,Recall,F1-Score,Comission Error,Omission Error
+Forest,0.95,0.97,0.95,0.97,0.96,0.05,0.03
+Shrubland,0.1,0.33,0.1,0.33,0.15,0.9,0.67
+Flooded Forest,0.45,0.17,0.45,0.17,0.25,0.55,0.83
+Wetland,0.58,0.23,0.58,0.23,0.33,0.42,0.77
+Natural Grassland,0.58,0.59,0.58,0.59,0.58,0.42,0.41
+Pastureland,0.59,0.85,0.59,0.85,0.7,0.41,0.15
+Cropland,0.11,0.29,0.11,0.29,0.16,0.89,0.71
+Bareland and Impervious,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+Rock Outcrop,0.17,0.19,0.17,0.19,0.18,0.83,0.81
+Water,0.89,0.81,0.89,0.81,0.85,0.11,0.19

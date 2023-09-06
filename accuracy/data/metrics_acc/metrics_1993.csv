@@ -1,8 +1,0 @@
-,Accuracy User,Accuracy Producer,Comission Error,Omission Error
-Forest,0.98,0.97,0.02,0.03
-Shrubland,0.09,0.32,0.91,0.68
-Wetland,0.53,0.21,0.47,0.79
-Natural Grassland,0.57,0.62,0.43,0.38
-Pastureland,0.67,0.91,0.33,0.09
-Cropland,0.07,0.67,0.93,0.33
-Water,0.91,0.79,0.09,0.21
