@@ -35,18 +35,6 @@ color_classes <- c(
     "#ff8C00"
 )
 
-limits_y <- c(
-    "Forest" = 400000000,
-    "Flooded Forest" = 20000000,
-    "Natural Grassland" = 0,
-    "Wetland" = 0,
-    "Shrubland" = 0,
-    "Water" = 0,
-    "Pastureland" = 0,
-    "Cropland" = 0,
-    "Bareland and Impervious" = 0,
-    "Outcrops" = 0
-)
 
 
 
