@@ -1,1 +1,3 @@
-escrever sobre material suplementar de acurácia
+Reccomendations
+
+- adjust text for confusion matrix exemple in the material suplementar 
