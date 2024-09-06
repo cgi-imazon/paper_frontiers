@@ -81,13 +81,13 @@ function majorityFilter(image) {
 
 
 
-var year = '2022';
+var year = '2023';
 
 var assetSp = 'users/jailson/impervious/samples_by_year/imp_sp_' + '2021' +'_3';
 var assetGrid = 'users/jailson/hyper_grids';
 var assetMosaics = 'projects/nexgenmap/MapBiomas2/LANDSAT/BRAZIL/mosaics-2';
 var assetAmz = 'projects/mapbiomas-workspace/AUXILIAR/biomas-2019';
-var assetImpervious = 'users/jailson/impervious/class_grid';
+var assetImpervious = 'users/jailson/impervious/classification-c2';
 
 
 /**
@@ -111,13 +111,19 @@ var samplesParams = {
 
 var listProcessed = ee.ImageCollection(assetImpervious)
     .filter(ee.Filter.eq('version', 1))
-    .filter(ee.Filter.eq('year', year))
+    .filter(ee.Filter.eq('year', parseInt(year)))
     .reduceColumns(ee.Reducer.toList(), ['system:index'])
     .get('list')
 
+
 listProcessed = ee.List(listProcessed).map(function(index) {
   return ee.String(index).slice(16, 21)
-})
+});
+
+
+print(listProcessed)
+
+
 
 var grids = ee.ImageCollection(assetGrid)
     .filter(ee.Filter.inList('system:index', listProcessed).not())
@@ -129,7 +135,7 @@ var mosaic = ee.ImageCollection(assetMosaics).filter(ee.Filter.and(
     ee.Filter.eq('biome', 'AMAZONIA'),
     ee.Filter.eq('collection', 8),
     ee.Filter.eq('year', parseInt(year))
-)).mosaic().clip(geometry); 
+)).mosaic().clip(geometry2); 
 
 var samplesTrain = ee.FeatureCollection(assetSp);
 

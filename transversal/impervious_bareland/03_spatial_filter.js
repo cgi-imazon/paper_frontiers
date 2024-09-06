@@ -88,10 +88,10 @@ years.forEach(function(year) {
   classified = classified.byte();
   classified = classified
       .set('biome', 'AMAZONIA')
-      .set('collection_id', 7.0)
+      .set('collection_id', 8.0)
       .set('territory', 'BRAZIL')
       .set('source', 'IMAZON')
-      .set('version', 3)
+      .set('version', 2)
       .set('year', parseInt(year))
       .set('description', 'classificacao de áreas construidas sem máscara.');
         
